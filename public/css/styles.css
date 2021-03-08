@@ -1,0 +1,54 @@
+body{
+  background-color: #000;
+}
+
+h1{
+  text-align: center;
+  color: #fff;
+  margin: 10px 0 20px 0;
+}
+
+.btn{
+  color: blue;
+  border-color: blue;
+  margin: 0 10px 0 10px;
+}
+
+.new-array{
+  color: green;
+  border-color: green;
+}
+
+.new-array-button{
+  display: inline-block;
+}
+.sort-buttons{
+  display: inline-block;
+  margin-left: 250px;
+}
+
+.bars{
+  margin: 30px 0 0 0;
+  text-align: center;
+  width: auto;
+  height: 500px;
+}
+
+.bar{
+  background-color: yellow;
+  display: inline-block;
+  margin: 0 3px 0 3px;
+  padding: 0 3px 1px 3px;
+}
+
+.no-of-bars{
+  color: white;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.speed{
+  color: white;
+  margin-left: 30px;
+  display: inline-block;
+}

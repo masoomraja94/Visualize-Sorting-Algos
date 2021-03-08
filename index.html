@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Visualize Sorting Algorithms</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <h1>Sorting Visualizer</h1>
+
+  <div class="new-array-button">
+    <button type="button" class="btn btn-dark new-array">New Array</button>
+  </div>
+
+  <div class="no-of-bars">
+    Number of Bars
+    <input id="change-bars" type="range" min=20 max=120 step=1 value=60>
+  </div>
+
+  <div class="speed">
+    Speed
+    <input id="change-speed" type="range" min=1 max=501 step=10 value=100>
+  </div>
+
+  <div class="sort-buttons">
+    <button type="button" class="btn btn-dark bubble-sort">Bubble Sort</button>
+    <button type="button" class="btn btn-dark selection-sort">Selection Sort</button>
+    <button type="button" class="btn btn-dark insertion-sort">Insertion Sort</button>
+    <button type="button" class="btn btn-dark quick-sort">Quick Sort</button>
+    <button type="button" class="btn btn-dark merge-sort">Merge Sort</button>
+  </div>
+
+  <div class="bars">
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/sorting.js" charset="utf-8"></script>
+  <script src="js/bubbleSort.js" charset="utf-8"></script>
+  <script src="js/selectionSort.js" charset="utf-8"></script>
+  <script src="js/insertionSort.js" charset="utf-8"></script>
+  <script src="js/quickSort.js" charset="utf-8"></script>
+  <script src="js/mergeSort.js" charset="utf-8"></script>
+</body>
+
+</html>
